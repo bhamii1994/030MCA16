@@ -1,0 +1,460 @@
+    1  cd /mnt/032MCA16
+    2  cat s1.txt 
+    3  cat >s1.txt
+    4  cat >s2.txt
+    5  cat >s3.txt
+    6  cat s1.txt s2.txt >s3.txt
+    7  cat s1.txt
+    8  cat s1.txt >> s2.txt
+    9  cat s2.txt >>s3.txt
+   10  mkdir department
+   11  cd department
+   12  cd MCA
+   13  mkdir MCA
+   14  mkdir mba
+   15  rmdir mba
+   16  mkdir MBA
+   17  mkdir MSW
+   18  chmod 755 department
+   19  cd ..
+   20  chmod 755 department
+   21  ls -l
+   22  cd department
+   23  chmod 770 MCA MBA MSW
+   24  cd MCA
+   25  mkdir 2014Batch
+   26  info -l
+   27  info ls-l
+   28  man ls
+   29  man ls-l
+   30  touch regular.txt lateral.txt
+   31  mv -r regular.txt lateral.txt MCA
+   32  cd 2014Batch
+   33  chmod 420 lat
+   34  chmod 420 lateral
+   35  chmod 42 lateral.txt
+   36  chmod u+r+w lateral.txt
+   37  chmod 666 lateral.txt
+   38  ls -l
+   39  chmod 666 regular.txt
+   40  ls -l
+   41  cat fl1.txt fl2.txt fl3.txt
+   42  cat> fl1.txt fl2.txt fl3.txt
+   43  cd regular
+   44  touch sem1.txt sem2.txt sem3.txt
+   45  cat >>sem1.txt
+   46  cat >>sem2.txt
+   47  cat wc sem2.txt
+   48  wc sem2.txt
+   49  wc -l sem2.txt
+   50  wc -m sem2.txt
+   51  wc -L sem1.txt
+   52  wc -L sem2.txt
+   53  WC -lwm sem2.txt
+   54  wc -lwm sem2.txt
+   55  man grep
+   56  grep [a,b,c] sem3.txt
+   57  head[-10] sem1.txt
+   58  head 10 sem1.txt
+   59  find .-name sem3.txt "sem3.txt"
+   60  cd /mnt/032MCA16
+   61  cd ADM
+   62  ln s1.txt S1
+   63  ln -s s2.txt S2
+   64  ln -s s2.txt S2.a
+   65  ln -s s2.txt S2a
+   66  ln s1.txt S1a
+   67  rm S1a
+   68  rm S2a
+   69  ln s2.txt S2a
+   70  rm s2
+   71  rm s2.txt
+   72  rm S2.txt
+   73  rm S2
+   74  rm s1.txt
+   75  ln -s S2a.txt S2b
+   76  ln -s S2a S2b
+   77  ln -s s2.txt S2b
+   78  rm s2.txt
+   79  ln -s s2.txt S2b
+   80  ln  s2.txt ms
+   81  rm s2.txt
+   82  cat S2b
+   83  cat ms
+   84  ls -s
+   85  ls -S
+   86  cat < s3.txt
+   87  cat 0<s3.txt
+   88  ls *s
+   89  ls *3
+   90  ls *m
+   91  cal 09 2000
+   92  pwd
+   93  date y
+   94  date
+   95  date %y
+   96  date %y%
+   97  cal -j
+   98  cal -j 2018
+   99  cal -j 02 2012
+  100  date % % %y
+  101  date--help
+  102  date --help
+  103  date  %Y
+  104  man ls
+  105  man ls || more
+  106  man ls || less
+  107  man ls 
+  108  man date
+  109  date + %Y
+  110  date +%Y
+  111  date +%X
+  112  date +%x
+  113  info more
+  114  ps
+  115  root
+  116  who
+  117  donkey 
+  118  ssmile plz
+  119  what
+  120  where
+  121  home
+  122  echo $home
+  123  echo$home
+  124  echo $ home
+  125  home
+  126  echo $home
+  127  cd /mnt/032MCA16
+  128  man ls|more
+  129  pwd
+  130  cd fisat
+  131  cd /fisat
+  132  cd ADM
+  133  cd fisat
+  134  pwd
+  135  cal -j 02 2012
+  136  date +%x
+  137  info more
+  138  who
+  139  echo home
+  140  echo $home
+  141  cd ..
+  142  cd department
+  143  cd ..
+  144  chmod 775 department
+  145  cd department
+  146  chmod 770 MCA MBA MSW
+  147  cd MCA
+  148  cd 2014Batch
+  149  chmod MCA
+  150  ls -lsdt lateral
+  151  ls -lsdt lateral.txt
+  152  chmod 420 regular lateral
+  153  chmod 420 regular lateral.txt
+  154  chmod 420 regular.txt lateral.txt
+  155  032MCA16@fisat:/mnt/032MCA16/ADM/department/MCA/2014Batch$ ls -lsdt regular.txt
+  156  ls -lsdt regular.txt
+  157  file lateral
+  158  file lateral.txt
+  159  cd ..
+  160  MSW
+  161  cdMSW
+  162  cd MSW
+  163  touch sem1.txt sem2.txt sem3.txt
+  164  touch sem1 sem2 sem3
+  165  cat >>sem1
+  166  cat >>sem2
+  167  cat sem1
+  168  cat sem2
+  169  cat sem1
+  170  cat >>sem1
+  171  cat sem1
+  172  cat >>sem1
+  173  cat sem1
+  174  cat >>sem1
+  175  cat sem1
+  176  del sem1
+  177  rm sem1
+  178  cat >>sem1
+  179  cat sem1
+  180  nl sem1
+  181  wc sem1
+  182  wc -l sem1
+  183  wc -w sem1
+  184  wc -c sem1
+  185  wc -L sem1
+  186  wc -l sem1
+  187  wc -l sem2
+  188  wc -c sem1
+  189  wc -w sem1
+  190  wc sem1
+  191  wc sem2
+  192  wc -c sem1
+  193  rm sem1
+  194  cat >>sem1
+  195  wc -c sem1
+  196  wc sem1
+  197  cmp sem1 sem2
+  198  head -10c sem1
+  199  head -10c sem2
+  200  cat sem1 sem2 >> sem4
+  201  cat sem4
+  202  wc -l sem1 sem2 sem4
+  203  cd ..
+  204  cd MCA
+  205  cat >>lateral.txt
+  206  cat >>sem1
+  207  cd ..
+  208  cd MSW
+  209  cat >>sem1
+  210  cd ADM
+  211  cd /mnt 032MCA16
+  212  cd /mnt/032MCA16
+  213  cd ADM
+  214  cd fisat
+  215  ls-l||tr-s"c||cut -f
+  216  ls-l||tr-s"c||cut-f
+  217  cd ..
+  218  department
+  219  cd department
+  220  cat >>semester1.txt
+  221  cat >>sem1.txt
+  222  cat >>sem2.txt
+  223  cat >>sem3.txt
+  224  cat sem3
+  225  cat sem1.txt
+  226  rm -i sem1.txt semester1.txt sem2.txt sem3.txt 
+  227  cd MSW
+  228  cd ..
+  229  cd MBA
+  230  touch hidden.txt
+  231  cat>>hidden.txt
+  232  cat hidden.txt
+  233  rm hidden.txt
+  234  touch .hidden.txt
+  235  cat>>hidden.txt
+  236  rm hidden.txt
+  237  cat>>.hidden.txt
+  238  cat .hidden.txt
+  239  ls-a
+  240  ls -a
+  241  cd ..
+  242  ls -lS
+  243  ls -l||sort -r
+  244  ls -lr
+  245  ls -t||HEAD -2
+  246  ls -t||HEAD -1
+  247  cd ..
+  248  ls -t||HEAD -2
+  249  ls -t||HEAD -1
+  250  cat> new.txt
+  251  cat new.txt
+  252  ls -t||HEAD -1
+  253  ls -t||HEAD 
+  254  ls -t
+  255  cd fisat
+  256  grep $[abc]
+  257  cd ..
+  258  cd department
+  259  cd MCA
+  260  cd 2O14Batch
+  261  cd 2014Batch 
+  262  grep $[abc]sem3.txt
+  263  grep $[abc] sem3.txt
+  264  cat>>sem3.txt
+  265  grep $[abc] sem3.txt
+  266  grep [abc] sem3.txt
+  267  grep [abc]$ sem3.txt
+  268  cd ..
+  269  cat >student.txt
+  270  sort -nr -k3 student.txt
+  271  ls -t|head -2
+  272  ls-lsdt sem1
+  273  ls -lsdt sem1
+  274  cd /mnt/032MCA16
+  275  cd ADM
+  276  cd fisat
+  277  ls-lS|tr -s " "|cut -d " " -f6,10|head
+  278  ls -lS|tr -s " "|cut -d " " -f6,10|head
+  279  cd ..
+  280  ls -lS|tr -s " "|cut -d " " -f6,10|head
+  281  ls -lS|tr -s " "|cut -d " " -f6,10|tail
+  282  ls -lS|tr -s " "|cut -d " " -f6,10|tail -1
+  283  ls -lS|tr -s " "|cut -d " " -f6,10|head -1
+  284  ls -lS|tr -s " "|cut -d " " -f6,10|head -2
+  285  ls -lS|tr -s " "|cut -d " " -f6,10|head -1
+  286  cd fisat
+  287  cd department
+  288  cd ..
+  289  cd department
+  290  cd MCA
+  291  cp s* /mnt/032MCA16/ADM/department/MBA
+  292  cd ..
+  293  cd MBA
+  294  ls -l
+  295  echo $HOME
+  296  cd ..
+  297  cd MCA
+  298  grep -c 'there' *
+  299  cd 2014Batch
+  300  grep -c 'there' *
+  301  cat>>lateral.txt
+  302  cat>>sem1.txt
+  303  grep -c 'there' *
+  304  cd ..
+  305  ls -lS|tr -s " "|cut -d " " -f6,10|more
+  306  cp /mnt/032MCA16/ADM/department/MCA/sem1 MSW
+  307  cd ..
+  308  cp /mnt/032MCA16/ADM/department/MCA/sem1 MSW
+  309  cd MCA
+  310  mv sem1 semester1
+  311  cd ..
+  312  cd MSW
+  313  ln sem1 hlink
+  314  ln sem1 -s slink
+  315  cd ..
+  316  cd MCA
+  317  cd 2014Batch
+  318  grep -i -l 'there' *.ssem1
+  319  grep -i -l 'there' *.sem1
+  320  grep -i -l 'there' *sem1
+  321  cd ..
+  322  grep -i -l 'there' *sem1
+  323  grep -i -l 'there' *semester1
+  324  grep -i -l 'there' *
+  325  cd 2014Batch
+  326  grep -i -l 'there' *
+  327  grep -i -l -c 'there' 
+  328  grep -i -lc 'there' *
+  329  grep -i -c 'there' *
+  330  grep -i -c -l 'there' *
+  331  grep -i -c 
+  332  grep -i -cl 'there' *
+  333  ls -l |tr -s " "|cut -f 5,6,7,8,9,10 -d " "
+  334  grep -c -i 'there' *
+  335  cd ..
+  336  cd..
+  337  cd ..
+  338  ls -nr
+  339  tar -cvf arch.tar /mnt/032MCA16/ADM/depatment/MBA
+  340  tar -cvf arch.tar /mnt/032MCA16
+  341  cd /mnt/032MCA16
+  342  cd ADM
+  343  cd department
+  344  bash shell1.sh
+  345  cd ..
+  346  bash shell1.sh
+  347  cd department
+  348  cat>even.sh
+  349  rm even.sh
+  350  bash even.sh
+  351  bash oper.sh
+  352  bash pattern.sh
+  353  bash oper.sh
+  354  bash pattern.sh
+  355  cd /mnt/032MCA16
+  356  bash pattern.sh
+  357  cd ADM
+  358  cd department
+  359  bash pattern.sh
+  360  cd MBA
+  361  cat>> sem4
+  362  cd ..
+  363  wc -w-l-m MBA/sem4
+  364  wc -w -l -m MBA/sem4
+  365  wc -w -l -m MBA/sem4|grep "fisat" |tr -s "fisat" "FISAT"
+  366  cat sem4
+  367  cd MBA
+  368  cat sem4
+  369  wc -w -l -m MBA/sem4|grep "fisat" sem4 |tr -s "fisat" "FISAT"
+  370  cd ..
+  371  wc -w -l -m MBA/sem4|grep "fisat" sem4 |tr -s "fisat" "FISAT"
+  372  cd MBA
+  373  wc -w -l -m sem4|grep "fisat" sem4 |tr -s "fisat" "FISAT"
+  374  cat sem4|grep -c "FISAT"
+  375  cat sem4|grep -c "FISAT" sem4
+  376  grep -c "FISAT" sem4
+  377  cat sem4
+  378  grep -c "FISAT" sem4
+  379  cat sem4|tr -s "fisat" FISAT" |grep -c "FISAT" sem4
+  380  cat sem4|tr -s "fisat" FISAT"|grep -c "FISAT" sem4
+  381  cat sem4|tr -s "fisat" "FISAT"|grep -c "FISAT" sem4
+  382  cat sem4|tr -s "fisat" "FISAT"|grep -c "FISAT" 
+  383  wc -w -l -m sem4|grep "fisat" |tr -s "fisat" "FISAT"
+  384  wc -w -l -m sem4|grep "fisat" sem4 |tr -s "fisat" "FISAT"
+  385  wc -w -l -m sem4
+  386  grep "fisat" sem4 |tr -s "fisat" "FISAT"
+  387  bash pattern.sh
+  388  cd ..
+  389  bash pattern.sh
+  390  bash oper.sh
+  391  cd /mnt/032MCA16
+  392  bash q9.sh
+  393  cd ADM
+  394  cd department
+  395  bash q9.sh
+  396  bash q5.sh
+  397  bash q8.sh
+  398  bash shell8.sh
+  399  3
+  400  bash shell8.sh
+  401  bash shell10.sh
+  402  cd /mnt/032MCA16
+  403  mkdir git
+  404  cd git
+  405  git init
+  406  ls -a
+  407  cat >>README
+  408  git status
+  409  git add README
+  410  git status
+  411  git commit -m "README FILE is added to repository" README
+  412  mkdir src
+  413  cat>>file1
+  414  cat>>file2
+  415  cat>>file3
+  416  rm file1 file2
+  417  cd src
+  418  cat>>file3
+  419  cat>>file2
+  420  cat>>file1
+  421  git status
+  422  git add .
+  423  git status
+  424  git commit
+  425  cat>>file1
+  426  cd ..
+  427  rm file3
+  428  cd src
+  429  cat>>file2
+  430  git diff
+  431  git add.
+  432  git add .
+  433  git diff
+  434  git status
+  435  cat>>file4
+  436  git status
+  437  git add .
+  438  git status
+  439  git commit
+  440  git status
+  441  git commit -m "file 4 is commited"
+  442  git log
+  443  git show  998ed696ba5bef3415482dd8301a6b92163a7343
+  444  git show 998ed6
+  445  git show 998ed696ba5bef3415482dd8301a6b92163a7343
+  446  git show  adce35a25d191afbfb9ce03acdf62ec537f05aeb
+  447* 
+  448  git cat>>file3
+  449  git cat>file5
+  450  git add .
+  451  git commit
+  452  git commit -m "changes made"
+  453  git log
+  454  git rm file3
+  455  git status
+  456  git commit -m "changes(deletion)"
+  457  git status
+  458  rm file2
+  459  git status
+  460  history>>output.txt
