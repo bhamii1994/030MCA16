@@ -1,3 +1,7 @@
 hi this is the
 second file in sub branch help
+<<<<<<< HEAD
 changing
+=======
+ccccchange in branch
+>>>>>>> help
