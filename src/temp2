@@ -1,7 +1,10 @@
 hi this is the
 second file in sub branch help
 <<<<<<< HEAD
-changing
+<<<<<<< HEAD
 =======
-ccccchange in branch
+change in branch
+>>>>>>> help
+=======
+change in branch
 >>>>>>> help
